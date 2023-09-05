@@ -1,4 +1,6 @@
 *
-!.*
-!./quartobjspyscript
-!./quartobjspyscript/vite-project/*
+!.gitignore
+./quartobjspyscript/*
+!./quartobjspyscript/vite-project
+./quartobjspyscript/vite-project/*
+!./quartobjspyscript/vite-project/dist/*
