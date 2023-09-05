@@ -75,6 +75,20 @@ These are big goals and I'm far from them.
 
 This repo is meant as a mere proof of concept, maybe as a template for you to make your own similar stuff.  More than anything, right now it probably demonstrates my inability to write good code.  :)
 
-To build it, make sure to have everything (Quarto, BabylonJS, PyScript, NPM, Vite, and all of the things that these things need) installed.  
+## Build
 
-Then clone the repo, point a terminal to the directory, and run `npm run serve`.  
+To build it, make sure to have everything installed.  At the very least this will require Quarto, Git, and NPM.  I'm honestly not currently certain whether you need to have anything else installed -- I'll update these instructions as I learn.
+
+Then clone the repo, point a terminal to the directory, and run `quarto render`.
+
+Then point the terminal into the subdirectory `vite-project` and run `npm run build`.  (If it gives an error about dependencies, then you may need to first run `npm install @babylonjs/core`.)
+
+Now move up a directory, back to the `quartobjspyscript` directory where you cloned the project.  Then run `quarto preview`.  This should pop up a tab in your browser and you should see the website!
+
+At this point the website is hosted on your personal computer and not shared with anyone.  Feel free to edit and play!
+
+## Publish
+
+When you've tinkered with it enough, you can publish in a number of different ways.  The most "universal" is to just copy-paste the build files into your server -- but of course this assumes you already have a server.  The instructions below are for the rest of us mortals.
+
+There are many other ways to publish, but I think the easiest is to get a Quarto Pub account for free.  Once you've signed up, keep your browser open and logged into Quarto Pub.  Then back in the terminal enter `quarto publish` and follow the steps described there.  
