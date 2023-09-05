@@ -1,5 +1,6 @@
 *
 !.gitignore
+!README.md
 ./quartobjspyscript/*
 !./quartobjspyscript/vite-project
 ./quartobjspyscript/vite-project/*
