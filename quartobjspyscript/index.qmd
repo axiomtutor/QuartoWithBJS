@@ -1,0 +1,15 @@
+---
+title: "Quartobjspyscript"
+format:
+    html: 
+        resources:
+            - ./vite-project/dist/*
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<canvas id="bjscanvas"></canvas>
+
+<script type="module" src="./vite-project/dist/assets/index-cd8dc6a1.js"></script>
