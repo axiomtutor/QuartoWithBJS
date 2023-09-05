@@ -1,8 +1,12 @@
 /*
 !.gitignore
 !README.md
-!quartobjspyscript/
+!quartobjspyscript
+
+quartobjspyscript/_site
 quartobjspyscript/_site/
-quartobjspyscript/.vite/
+quartobjspyscript/_site/*
+quartobjspyscript/_site/**
+
 !quartobjspyscript/vite-project/
 !quartobjspyscript/vite-project/dist/
