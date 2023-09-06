@@ -4,6 +4,8 @@ format:
     html: 
         resources:
             - ./vite-project/dist/*
+        include-in-header: 
+            - loadjs.html
 ---
 
 This is a Quarto website.
@@ -14,6 +16,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 <canvas id="bjscanvas"></canvas>
 </div>
 
-<script type="module" src="./vite-project/dist/assets/index-cd8dc6a1.js">
+<script>
     index();
 </script>

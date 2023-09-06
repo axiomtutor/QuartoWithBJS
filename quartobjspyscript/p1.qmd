@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Page 1 - Demo"
 format: 
     html:
         resources: 
@@ -13,6 +13,6 @@ About this site
 <canvas id="c2"></canvas>
 </div>
 
-<script type="module" src="./vite-project/dist/assets/index-cd8dc6a1.js">
+<script type="module" src="./vite-project/dist/assets/index-c7f5a5f9.js">
     p1();
 </script>

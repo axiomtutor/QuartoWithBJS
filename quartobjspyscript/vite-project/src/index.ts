@@ -61,4 +61,6 @@ engine.runRenderLoop( () => {
   scene.render();
 })
 
+console.log("TEST");
+
 };
