@@ -10,6 +10,10 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+<div>
 <canvas id="bjscanvas"></canvas>
+</div>
 
-<script type="module" src="./vite-project/dist/assets/index-cd8dc6a1.js"></script>
+<script type="module" src="./vite-project/dist/assets/index-cd8dc6a1.js">
+    index();
+</script>
